@@ -1,0 +1,55 @@
+/* En este archivo/carpeta viviran todos los estilos de cada uno de nuestros elementos del componente Badge.js,
+Se debe importar en Badge.js y para que se apliquen los estilos se les agrega (className) a cada elemento */
+
+.Badge {
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 8px 8px 8px 8px;
+    overflow: hidden;
+    height: 380px;
+}
+
+.Badge__header {
+    padding: 0.5rem;
+    height: 80px;
+    background: linear-gradient(207.8deg, #420570  -16.31%, #1B1B25 91%);
+    display: flex;
+    justify-content: center;
+}
+.Badge__header h2 {
+    margin: 20px 0;
+    color: white;
+    font-size: 1.2rem;
+}
+.Badge__section-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.Badge__section-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+    background: #f4f4f7;
+}
+
+.Badge__avatar {
+    border-radius: 50%;
+    margin-right: 2rem;
+    width: 120px;
+    height: 120px;
+}
+
+.Badge__footer {
+    height: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #98ca3f;
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,21 @@
+.Navbar {
+    width: 100%;
+    padding: 0.8rem 0;
+    background: linear-gradient(207.8deg, #420570 -16.31%, #1B1B25 31%);
+  }
+  
+  .Navbar__brand {
+    color: #ffffff;
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .Navbar__brand {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .Navbar__brand-logo {
+    width: 70px;
+  }
