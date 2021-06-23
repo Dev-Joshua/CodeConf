@@ -1,8 +1,8 @@
 {
+  "homepage": "https://Dev-Joshua.github.io/CodeConf",
   "name": "platzi-badges",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Dev-Joshua.github.io/platzi-badges",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
