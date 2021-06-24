@@ -6,7 +6,6 @@ import App  from './components/App'; //Se crea este nuevo componente. Este tendr
 // import BadgeNew from './pages/BadgeNew';
 // import Badges from './pages/Badges';
 
-import { HashRouter } from 'react-router-dom';
 
 
 //Esta constante guarda el Id(app). Enlaza con el template del index.html
@@ -14,9 +13,4 @@ const container = document.getElementById('app');
 
 // ReactDOM.render(__qué__, __dónde__);
 // El componente Badge se debe encerrar para que sea un elemento. <>
-ReactDOM.render(
-  <HashRouter>
-    <App />
-  </HashRouter>,
-    container);
-  
+ReactDOM.render(<App />, container);

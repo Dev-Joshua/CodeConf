@@ -13,7 +13,7 @@ import NotFound from '../pages/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/CodeConf/">
       <Layout>
         <Switch>
           {/* Aqui adentro se pondran las rutas de la app. (path) es la ruta. */}
